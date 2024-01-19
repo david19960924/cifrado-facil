@@ -31,7 +31,7 @@ function readMessage(option) {
             resultado = decrypt(message, secretKey);
             break;
     }
-    alert(resultado);
+    
     $("#idmenssage").val(resultado);
    
 }
